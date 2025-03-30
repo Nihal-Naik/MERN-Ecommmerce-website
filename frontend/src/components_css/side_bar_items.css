@@ -1,0 +1,38 @@
+.side_bar{
+    display: grid;
+    /* position: fixed; */
+    /* justify-content: right; */
+    right: 1rem;
+    padding: 3rem;
+    background-color: rgba(140, 136, 136, 0.608);
+    border-radius: 1rem;
+    /* min-height: 20rem; */
+    /* width: 5rem; */
+    margin-top: 1rem;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+.side_bar p{
+    /* padding: 1rem; */
+    color: white;
+}
+hr{
+    margin-bottom: 1rem;
+}
+.side_bar h1{
+    color: white;
+}
+.buy_now{
+    color: white;
+    background-color: orangered;
+    padding: 0.4rem 1rem;
+    box-shadow: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.buy_now:hover{
+    color: orange;
+    background-color: white;
+}
